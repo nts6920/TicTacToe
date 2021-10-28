@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/playBTN"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
