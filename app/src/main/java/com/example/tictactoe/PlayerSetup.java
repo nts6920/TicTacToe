@@ -13,7 +13,7 @@ public class PlayerSetup extends AppCompatActivity {
     EditText player1;
     EditText player2;
 
-
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
