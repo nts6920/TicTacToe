@@ -11,4 +11,5 @@ public class GameLogic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_logic);
     }
+
 }
