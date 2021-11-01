@@ -13,8 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void playButtonClick(View view){
         Intent intent = new Intent(this, PlayerSetup.class);
         startActivity(intent);
+    }
+
+    public void playAgainPress(View view) {
     }
 }

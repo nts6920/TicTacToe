@@ -2,7 +2,6 @@ package com.example.tictactoe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +12,6 @@ public class PlayerSetup extends AppCompatActivity {
     EditText player1;
     EditText player2;
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
